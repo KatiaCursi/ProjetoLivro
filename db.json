@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "livros": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "titulo": "Quarto de Despejo",
+      "autor": "Carolina Maria de Jesus",
+      "editora": "Ática",
+      "preço": "35,00"
+      
+      
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "titulo": "Grande Sertão: Veredas",
+      "autor": "João Guimarães Rosa",
+      "editora": "Companhia das Letras",
+      "preço": "70,00"
+    },
+    {
+      "id": 3,
+      "titulo": "Torto Arado",
+      "autor": "Itamar Vieira Junior",
+      "editora": "Todavia",
+      "preço": "50,00"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
+  

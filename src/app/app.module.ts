@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TabelaLivrosComponent } from './tabela-livros/tabela-livros.component';
+import { LivrosComponent } from './livros/livros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TabelaLivrosComponent
+    TabelaLivrosComponent,
+    LivrosComponent
   ],
   imports: [
     BrowserModule,
